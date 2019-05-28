@@ -15,7 +15,6 @@ $(function () {
     let searchWord = $("#search-word").val();
 
     //itunesに曲の検索をしに行く（Ajax）
-
     $.ajax({
       //データの通信をするところ
       url: "https://itunes.apple.com/search", //通信用URL
